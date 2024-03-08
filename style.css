@@ -1,0 +1,35 @@
+:root {
+
+    /*colores*/
+    --white: #FFF;
+    --black: #000;
+    --text-input-field: #F7F7F7;
+    --very-light-pink: #C7C7C7;
+    --hospital-green: #ACD9B2;
+
+    /*fuentes*/
+    --quicksand: "Quicksand", sans-serif;
+    --light: 300; 
+    --medium: 500;
+    --bold: 700;
+}
+
+html {
+    font-size: 62.5%;
+}
+  
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+    font-family: var(--quicksand);
+    font-size: 1.6rem;
+    margin: 1.6rem;
+}
+
